@@ -38,7 +38,7 @@ function Country() {
         console.log(JSON.stringify(data, null, 2));
         setCountries(data);
       } catch (error) {
-        console.error("Error Fetching Data: ", error);
+        console.error("Error Fetching data: ", error.message);
       }
     };
 
